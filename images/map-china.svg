@@ -1,0 +1,37 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#f9fafb" />
+    
+    <!-- Title -->
+    <text x="400" y="40" font-family="Inter, sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#111827">江苏省与广东省地理位置</text>
+    
+    <!-- Simplified China Map Outline -->
+    <path d="M200,200 C240,180 280,190 320,180 C360,170 400,150 440,160 C480,170 520,190 560,180 C600,170 640,160 680,180 C720,200 760,240 740,280 C720,320 680,340 640,360 C600,380 560,400 520,420 C480,440 440,460 400,480 C360,460 320,440 280,420 C240,400 200,380 180,340 C160,300 160,240 200,200 Z" fill="#f3f4f6" stroke="#d1d5db" stroke-width="2" />
+    
+    <!-- Jiangsu Province Highlight -->
+    <path d="M520,280 C530,270 540,260 550,270 C560,280 570,290 560,300 C550,310 540,320 530,310 C520,300 510,290 520,280 Z" fill="#3b82f6" stroke="#2563eb" stroke-width="1">
+        <title>江苏省</title>
+    </path>
+    
+    <!-- Guangdong Province Highlight -->
+    <path d="M480,380 C490,370 500,360 510,370 C520,380 530,390 520,400 C510,410 500,420 490,410 C480,400 470,390 480,380 Z" fill="#f97316" stroke="#ea580c" stroke-width="1">
+        <title>广东省</title>
+    </path>
+    
+    <!-- Province Labels -->
+    <text x="540" y="290" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#111827">江苏省</text>
+    <text x="530" y="310" font-family="Inter, sans-serif" font-size="12" fill="#6b7280">心理健康服务体系较完善</text>
+    
+    <text x="500" y="390" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#111827">广东省</text>
+    <text x="510" y="410" font-family="Inter, sans-serif" font-size="12" fill="#6b7280">拥有明确心理健康专业人员配置目标</text>
+    
+    <!-- Legend -->
+    <rect x="600" y="480" width="20" height="20" fill="#3b82f6" stroke="#2563eb" stroke-width="1" />
+    <text x="630" y="495" font-family="Inter, sans-serif" font-size="14" fill="#4b5563">江苏省</text>
+    
+    <rect x="600" y="510" width="20" height="20" fill="#f97316" stroke="#ea580c" stroke-width="1" />
+    <text x="630" y="525" font-family="Inter, sans-serif" font-size="14" fill="#4b5563">广东省</text>
+    
+    <!-- Note -->
+    <text x="400" y="550" font-family="Inter, sans-serif" font-size="12" text-anchor="middle" fill="#6b7280">注：地图仅供示意，不代表实际地理边界</text>
+</svg>

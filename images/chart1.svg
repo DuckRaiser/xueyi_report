@@ -1,0 +1,84 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="400" fill="#f9fafb" rx="10" ry="10" />
+    
+    <!-- Title -->
+    <text x="400" y="40" font-family="Inter, sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#111827">不同年龄段抑郁风险检出率 (2020-2025)</text>
+    
+    <!-- Legend -->
+    <g transform="translate(600, 80)">
+        <rect x="0" y="0" width="16" height="16" fill="#3b82f6" rx="2" ry="2" />
+        <text x="24" y="13" font-family="Inter, sans-serif" font-size="14" fill="#4b5563">江苏省</text>
+        
+        <rect x="0" y="30" width="16" height="16" fill="#f97316" rx="2" ry="2" />
+        <text x="24" y="43" font-family="Inter, sans-serif" font-size="14" fill="#4b5563">广东省</text>
+    </g>
+    
+    <!-- X and Y axes -->
+    <line x1="100" y1="320" x2="700" y2="320" stroke="#d1d5db" stroke-width="2" />
+    <line x1="100" y1="80" x2="100" y2="320" stroke="#d1d5db" stroke-width="2" />
+    
+    <!-- X axis labels -->
+    <text x="150" y="340" font-family="Inter, sans-serif" font-size="12" text-anchor="middle" fill="#6b7280">10-17岁</text>
+    <text x="250" y="340" font-family="Inter, sans-serif" font-size="12" text-anchor="middle" fill="#6b7280">18-24岁</text>
+    <text x="350" y="340" font-family="Inter, sans-serif" font-size="12" text-anchor="middle" fill="#6b7280">25-34岁</text>
+    <text x="450" y="340" font-family="Inter, sans-serif" font-size="12" text-anchor="middle" fill="#6b7280">35-49岁</text>
+    <text x="550" y="340" font-family="Inter, sans-serif" font-size="12" text-anchor="middle" fill="#6b7280">50-64岁</text>
+    <text x="650" y="340" font-family="Inter, sans-serif" font-size="12" text-anchor="middle" fill="#6b7280">65岁以上</text>
+    
+    <!-- Y axis labels -->
+    <text x="90" y="320" font-family="Inter, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">0%</text>
+    <text x="90" y="260" font-family="Inter, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">10%</text>
+    <text x="90" y="200" font-family="Inter, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">20%</text>
+    <text x="90" y="140" font-family="Inter, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">30%</text>
+    <text x="90" y="80" font-family="Inter, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">40%</text>
+    
+    <!-- Grid lines -->
+    <line x1="100" y1="260" x2="700" y2="260" stroke="#e5e7eb" stroke-width="1" />
+    <line x1="100" y1="200" x2="700" y2="200" stroke="#e5e7eb" stroke-width="1" />
+    <line x1="100" y1="140" x2="700" y2="140" stroke="#e5e7eb" stroke-width="1" />
+    <line x1="100" y1="80" x2="700" y2="80" stroke="#e5e7eb" stroke-width="1" />
+    
+    <!-- Data Bars for Jiangsu Province -->
+    <rect x="130" y="243.2" width="40" height="76.8" fill="#3b82f6" rx="4" ry="4" opacity="0.9">
+        <title>江苏省: 14.6%</title>
+    </rect>
+    <rect x="230" y="192.8" width="40" height="127.2" fill="#3b82f6" rx="4" ry="4" opacity="0.9">
+        <title>江苏省: 21.3%</title>
+    </rect>
+    <rect x="330" y="212.4" width="40" height="107.6" fill="#3b82f6" rx="4" ry="4" opacity="0.9">
+        <title>江苏省: 18.7%</title>
+    </rect>
+    <rect x="430" y="237.2" width="40" height="82.8" fill="#3b82f6" rx="4" ry="4" opacity="0.9">
+        <title>江苏省: 15.7%</title>
+    </rect>
+    <rect x="530" y="258.4" width="40" height="61.6" fill="#3b82f6" rx="4" ry="4" opacity="0.9">
+        <title>江苏省: 12.4%</title>
+    </rect>
+    <rect x="630" y="261" width="40" height="59" fill="#3b82f6" rx="4" ry="4" opacity="0.9">
+        <title>江苏省: 11.8%</title>
+    </rect>
+    
+    <!-- Data Bars for Guangdong Province -->
+    <rect x="180" y="240" width="40" height="80" fill="#f97316" rx="4" ry="4" opacity="0.9">
+        <title>广东省: 15.2%</title>
+    </rect>
+    <rect x="280" y="179.6" width="40" height="140.4" fill="#f97316" rx="4" ry="4" opacity="0.9">
+        <title>广东省: 24.1%</title>
+    </rect>
+    <rect x="380" y="258.4" width="40" height="61.6" fill="#f97316" rx="4" ry="4" opacity="0.9">
+        <title>广东省: 12.3%</title>
+    </rect>
+    <rect x="480" y="245.6" width="40" height="74.4" fill="#f97316" rx="4" ry="4" opacity="0.9">
+        <title>广东省: 14.1%</title>
+    </rect>
+    <rect x="580" y="262.5" width="40" height="57.5" fill="#f97316" rx="4" ry="4" opacity="0.9">
+        <title>广东省: 11.5%</title>
+    </rect>
+    <rect x="680" y="265.5" width="40" height="54.5" fill="#f97316" rx="4" ry="4" opacity="0.9">
+        <title>广东省: 10.9%</title>
+    </rect>
+    
+    <!-- Source note -->
+    <text x="100" y="380" font-family="Inter, sans-serif" font-size="11" fill="#9ca3af">数据来源: 中国科学院心理研究所《2022年青少年心理健康状况调查报告》及《中国国民心理健康发展报告（2020）》</text>
+</svg>

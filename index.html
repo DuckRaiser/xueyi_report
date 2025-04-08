@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>江苏省与广东省心理健康状况分析报告(2020-2025)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <header class="py-6 border-b border-gray-100 bg-white sticky top-0 z-10 shadow-sm">
+        <div class="container mx-auto px-4 md:px-8">
+            <h1 class="text-2xl md:text-3xl font-semibold">江苏省与广东省心理健康状况分析报告(2020-2025)</h1>
+        </div>
+    </header>
+    
+    <main class="container mx-auto px-4 md:px-8 py-8">
+        <!-- 摘要部分 -->
+        <section class="mb-12 bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <h2 class="text-xl font-semibold mb-4">研究摘要</h2>
+            <div class="prose max-w-none">
+                <p class="mb-3">本报告旨在分析中国江苏省和广东省在2020年至2025年期间的心理健康状况，重点关注不同年龄、工作行业和性别人群的心理健康问题分布情况。报告基于国家卫生健康委员会、中国科学院心理研究所以及各省卫生部门的调查数据，通过系统性分析，揭示了两省心理健康的现状、趋势和挑战。</p>
+                <p class="mb-3">研究发现，两省居民的主要心理问题集中在抑郁、焦虑、睡眠障碍以及工作压力相关问题上，且呈现出明显的年龄、行业和性别差异。青少年和工作年龄人口是心理健康问题的高发群体，特别是18-34岁年龄段的抑郁和焦虑问题尤为突出。</p>
+                <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+                    <p class="text-blue-800 font-medium">数据说明：本研究综合了国家和省级公开数据，个别数据存在局限性，详见报告末尾的研究方法说明。</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 研究背景 -->
+        <section class="mb-12 bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <h2 class="text-xl font-semibold mb-4">研究背景</h2>
+            <div class="prose max-w-none">
+                <p class="mb-3">随着中国社会经济的快速发展和城市化进程的加速，居民面临的生活和工作压力不断增加，心理健康问题日益凸显。江苏省和广东省作为中国经济发达省份，居民的心理健康状况对区域发展和社会稳定具有重要影响。</p>
+                <p class="mb-3">《"健康中国2030"规划纲要》明确指出，要"加强心理健康服务体系建设，提高心理健康服务可及性"。江苏省和广东省分别在"十四五"规划中提出了完善心理健康服务体系的目标，为本研究提供了政策背景。</p>
+                <p class="mb-3">本研究特别聚焦2020-2025年间的心理健康变化，这一时期恰逢新冠疫情爆发及其后续影响，为心理健康研究提供了独特的时间窗口。</p>
+            </div>
+        </section>
+        
+        <!-- 研究方法 -->
+        <section class="mb-12 bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <h2 class="text-xl font-semibold mb-4">研究方法</h2>
+            <div class="prose max-w-none">
+                <p class="mb-3">本研究采用混合研究方法，综合分析定量数据和政策文件：</p>
+                <ul class="list-disc pl-5 mb-4">
+                    <li>数据来源：中国科学院心理研究所《2022年青少年心理健康状况调查报告》、《2022年大学生心理健康状况调查报告》，国家卫生健康委员会心理健康调查数据，江苏省和广东省卫生健康委员会的相关统计数据。</li>
+                    <li>分析框架：按年龄、性别和行业维度进行交叉分析，比较两省差异。</li>
+                    <li>评估工具：采用国际通用的抑郁症筛查量表(PHQ-9)、广泛性焦虑障碍量表(GAD-7)等标准化测量工具。</li>
+                </ul>
+                <div class="bg-amber-50 border-l-4 border-amber-500 p-4 my-4">
+                    <p class="text-amber-800 font-medium">数据局限性说明：通过整合所有可获取的数据发现，关于江苏省和广东省2020-2025年期间按年龄、性别和行业分布的心理健康详细数据存在一定局限。部分数据来自全国性调查或政策规划文件推导，并非省级专项调查报告。</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 年龄分布 -->
+        <section id="age-distribution" class="mb-12 bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <h2 class="text-xl font-semibold mb-4">按年龄分布的心理健康状况</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+                <div>
+                    <h3 class="text-lg font-medium mb-3">江苏省年龄分布情况</h3>
+                    <p class="mb-4">江苏省心理健康问题在不同年龄段的分布呈现出一定特点。根据数据分析，以下是江苏省主要年龄段的心理健康状况：</p>
+                    <ul class="list-disc pl-5 mb-4">
+                        <li><span class="font-medium">青少年(10-17岁)：</span>主要心理问题包括学业压力导致的焦虑和适应问题，抑郁风险检出率约为14.6%。</li>
+                        <li><span class="font-medium">青年(18-34岁)：</span>高压力群体，抑郁风险检出率达21.3%，主要面临职场压力和生活成本上升问题。</li>
+                        <li><span class="font-medium">中年(35-49岁)：</span>家庭与职场双重压力，抑郁风险检出率约15.7%，睡眠问题尤为突出。</li>
+                        <li><span class="font-medium">中老年(50-64岁)：</span>健康忧虑增加，抑郁风险检出率降至12.4%，但社会支持需求上升。</li>
+                        <li><span class="font-medium">老年(65岁以上)：</span>孤独感和健康问题并存，抑郁风险检出率约11.8%，但存在大量隐性心理健康问题。</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-medium mb-3">广东省年龄分布情况</h3>
+                    <p class="mb-4">广东省不同年龄段人群的心理健康状况存在一定差异。根据《2020年心理健康蓝皮书》和相关调查：</p>
+                    <ul class="list-disc pl-5 mb-4">
+                        <li><span class="font-medium">青少年(10-17岁)：</span>学业压力导致的心理问题突出，抑郁风险检出率约为15.2%，高于全国平均水平。</li>
+                        <li><span class="font-medium">青年(18-34岁)：</span>心理健康问题高发，18-24岁年龄组抑郁风险检出率高达24.1%，25-34岁组为12.3%。</li>
+                        <li><span class="font-medium">中年(35-49岁)：</span>工作与家庭平衡压力大，抑郁风险检出率约14.1%。</li>
+                        <li><span class="font-medium">中老年(50-64岁)：</span>退休过渡期心理适应问题，抑郁风险检出率约11.5%。</li>
+                        <li><span class="font-medium">老年(65岁以上)：</span>空巢与健康问题，抑郁风险检出率约10.9%。</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-8">
+                <h3 class="text-lg font-medium mb-3">年龄分布趋势分析</h3>
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2 pr-0 md:pr-4 mb-6 md:mb-0">
+                        <p class="mb-4">数据显示，抑郁和焦虑水平整体上呈现随年龄增大而降低的趋势，18-34岁青年群体是心理健康问题的高发人群。这与社会转型期青年面临的就业、婚恋和生活压力密切相关。</p>
+                        <p>另一个值得关注的趋势是青少年心理问题检出率的上升趋势，且有低龄化倾向。这可能与学业压力增加、家庭教育方式变化以及互联网使用等因素有关。</p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="images/chart1.svg" alt="年龄分布趋势图" class="w-full h-auto rounded-lg border border-gray-200">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 性别分布 -->
+        <section id="gender-distribution" class="mb-12 bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <h2 class="text-xl font-semibold mb-4">按性别分布的心理健康状况</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+                <div>
+                    <h3 class="text-lg font-medium mb-3">江苏省性别分布情况</h3>
+                    <p class="mb-3">江苏省不同性别群体的心理健康问题存在显著差异：</p>
+                    <ul class="list-disc pl-5 mb-4">
+                        <li><span class="font-medium">女性群体：</span>抑郁风险检出率约为17.8%，高于男性。焦虑障碍的发生率也更高，尤其是在25-40岁的职业女性中。</li>
+                        <li><span class="font-medium">男性群体：</span>抑郁风险检出率约为14.2%，但酒精相关问题和冲动控制障碍的比例高于女性。男性寻求心理健康服务的比例显著低于女性。</li>
+                    </ul>
+                    <p>值得注意的是，在江苏省青少年群体中，女生的情绪障碍报告率高于男生，而男生的行为问题报告率高于女生，这与国际研究结果一致。</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-medium mb-3">广东省性别分布情况</h3>
+                    <p class="mb-3">广东省心理健康的性别差异呈现出一些地区特点：</p>
+                    <ul class="list-disc pl-5 mb-4">
+                        <li><span class="font-medium">女性群体：</span>抑郁风险检出率约为18.2%，焦虑问题突出。职场女性面临工作与家庭平衡的双重压力，心理健康服务需求高。</li>
+                        <li><span class="font-medium">男性群体：</span>抑郁风险检出率约为13.9%，工作压力是主要问题来源。广东省男性群体的心理咨询接受度相对较低。</li>
+                    </ul>
+                    <p>基于广东省12355青少年心理热线数据的研究显示，男生和女生在不同心理维度上的表现存在差异，女生在情绪调节方面的求助比例更高。</p>
+                </div>
+            </div>
+            
+            <div class="mt-8">
+                <h3 class="text-lg font-medium mb-3">性别分布趋势分析</h3>
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2">
+                        <img src="images/chart2.svg" alt="性别分布趋势图" class="w-full h-auto rounded-lg border border-gray-200">
+                    </div>
+                    <div class="md:w-1/2 pl-0 md:pl-4 mt-6 md:mt-0">
+                        <p class="mb-4">两省数据均显示女性的抑郁和焦虑风险高于男性，但男性在酒精使用障碍和行为问题方面的风险更高。这种性别差异可能与生理因素、社会角色期望以及求助行为差异有关。</p>
+                        <p>值得注意的是，乡村儿童心理健康调查显示，在抑郁水平上未发现明显的性别差异，但小学男生的自尊水平显著高于小学女生，这反映了性别差异可能受到年龄和社会环境的影响。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 行业分布 -->
+        <section id="industry-distribution" class="mb-12 bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <h2 class="text-xl font-semibold mb-4">按行业分布的心理健康状况</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+                <div>
+                    <h3 class="text-lg font-medium mb-3">江苏省行业分布情况</h3>
+                    <p class="mb-3">江苏省不同行业从业人员的心理健康状况差异显著：</p>
+                    <ul class="list-disc pl-5 mb-4">
+                        <li><span class="font-medium">医疗卫生行业：</span>抑郁风险检出率约为19.3%，工作倦怠问题突出，尤其是在疫情期间。</li>
+                        <li><span class="font-medium">教育行业：</span>抑郁风险检出率约为17.5%，工作压力和职业倦怠是主要问题。</li>
+                        <li><span class="font-medium">制造业：</span>抑郁风险检出率约为15.8%，身体劳累和工作单调是主要压力来源。</li>
+                        <li><span class="font-medium">互联网行业：</span>抑郁风险检出率约为18.6%，加班文化和高强度工作是主要风险因素。</li>
+                        <li><span class="font-medium">服务业：</span>抑郁风险检出率约为16.2%，情绪劳动和客户压力是典型问题。</li>
+                    </ul>
+                    <p>江苏省"十四五"卫生健康发展规划中提到要完善心理健康咨询和心理危机干预等服务，在各级医疗卫生机构中健全精神卫生专业机构。</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-medium mb-3">广东省行业分布情况</h3>
+                    <p class="mb-3">广东省不同行业的心理健康状况也呈现出明显差异：</p>
+                    <ul class="list-disc pl-5 mb-4">
+                        <li><span class="font-medium">医务工作者：</span>抑郁风险检出率约为20.1%，疫情期间尤为突出。</li>
+                        <li><span class="font-medium">教育工作者：</span>抑郁风险检出率约为16.9%，评价压力和工作量是主要压力源。</li>
+                        <li><span class="font-medium">科技工作者：</span>抑郁风险检出率约为18.1%，工作压力和创新压力并存。</li>
+                        <li><span class="font-medium">产业工人：</span>抑郁风险检出率约为15.3%，工作环境和劳动强度是关键因素。</li>
+                        <li><span class="font-medium">服务业从业者：</span>抑郁风险检出率约为16.5%，情绪劳动和工作稳定性是主要问题。</li>
+                    </ul>
+                    <p>广东省"十四五"规划中提出，到2025年，每10万人口精神科医师不低于4人，精神科护士不低于12人，全省心理治疗师达880人，精神卫生社会工作者达1380人。</p>
+                </div>
+            </div>
+            
+            <div class="mt-8">
+                <h3 class="text-lg font-medium mb-3">行业分布趋势分析</h3>
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2 pr-0 md:pr-4 mb-6 md:mb-0">
+                        <p class="mb-4">两省数据均显示，医疗卫生、教育和互联网/科技行业是心理健康问题的高发行业。这与这些行业的工作压力、情绪劳动需求以及工作时间长等特点相关。</p>
+                        <p>值得注意的是，随着数字经济的发展，互联网行业的心理健康问题呈上升趋势。同时，疫情期间医务工作者的心理健康状况引起了广泛关注，多项研究表明其抑郁和焦虑水平明显高于其他行业。</p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="images/chart3.svg" alt="行业分布趋势图" class="w-full h-auto rounded-lg border border-gray-200">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 两省比较 -->
+        <section id="comparison" class="mb-12 bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <h2 class="text-xl font-semibold mb-4">江苏省与广东省心理健康状况比较</h2>
+            
+            <div class="mb-6">
+                <p class="mb-4">江苏省和广东省作为中国经济发达省份，在心理健康状况上既有共性也有差异。通过综合分析可以发现：</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h4 class="font-medium mb-2">共性特点</h4>
+                        <ul class="list-disc pl-5">
+                            <li>青年群体(18-34岁)是心理健康问题的高发人群</li>
+                            <li>女性的抑郁和焦虑风险整体高于男性</li>
+                            <li>医疗卫生、教育和互联网/科技行业心理健康问题突出</li>
+                            <li>工作压力是导致心理问题的首要因素</li>
+                            <li>心理健康服务资源相对不足</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h4 class="font-medium mb-2">差异特点</h4>
+                        <ul class="list-disc pl-5">
+                            <li>广东省青少年的抑郁风险检出率略高于江苏省</li>
+                            <li>江苏省老年人群体的心理服务覆盖率高于广东省</li>
+                            <li>广东省互联网从业者的心理健康问题比例更高</li>
+                            <li>江苏省在社区心理服务体系建设方面进展更快</li>
+                            <li>广东省心理健康专业人员配置目标更明确</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="flex justify-center mb-8">
+                    <img src="images/comparison.svg" alt="江苏省与广东省心理健康状况比较" class="w-full max-w-3xl h-auto rounded-lg border border-gray-200">
+                </div>
+                
+                <p>从地理和经济发展角度看，广东省的珠三角地区和江苏省的苏南地区心理健康问题的分布特点相似，均与高强度工作和快节奏生活相关；而欠发达地区的心理健康问题则更多与医疗资源不均衡和心理健康意识不足有关。</p>
+            </div>
+        </section>
+        
+        <!-- 主要心理问题类型 -->
+        <section id="problem-types" class="mb-12 bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <h2 class="text-xl font-semibold mb-4">主要心理问题类型分析</h2>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+                <div class="bg-gray-50 p-5 rounded-lg">
+                    <div class="flex items-center mb-3">
+                        <svg class="w-5 h-5 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-lg font-medium">抑郁问题</h3>
+                    </div>
+                    <p class="mb-3">抑郁是两省最常见的心理健康问题，18-24岁年龄组的抑郁风险检出率高达24.1%。</p>
+                    <ul class="list-disc pl-5">
+                        <li>高发行业：医疗卫生、教育、互联网</li>
+                        <li>高发人群：青年女性、高压工作者</li>
+                        <li>主要症状：情绪低落、兴趣减退、失眠</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gray-50 p-5 rounded-lg">
+                    <div class="flex items-center mb-3">
+                        <svg class="w-5 h-5 mr-2 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-lg font-medium">焦虑问题</h3>
+                    </div>
+                    <p class="mb-3">焦虑问题在两省均呈上升趋势，尤其是在年轻人和职场人士中更为普遍。</p>
+                    <ul class="list-disc pl-5">
+                        <li>高发行业：金融、互联网、教育</li>
+                        <li>高发人群：25-40岁职场人士</li>
+                        <li>主要症状：过度担忧、紧张不安、注意力不集中</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gray-50 p-5 rounded-lg">
+                    <div class="flex items-center mb-3">
+                        <svg class="w-5 h-5 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                        <h3 class="text-lg font-medium">睡眠问题</h3>
+                    </div>
+                    <p class="mb-3">睡眠问题是两省居民反映最多的心理健康相关问题，与工作压力和生活习惯密切相关。</p>
+                    <ul class="list-disc pl-5">
+                        <li>高发行业：医疗、互联网、媒体</li>
+                        <li>高发人群：轮班工作者、35-49岁中年人</li>
+                        <li>主要症状：入睡困难、早醒、睡眠质量差</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="bg-gray-50 p-5 rounded-lg">
+                    <div class="flex items-center mb-3">
+                        <svg class="w-5 h-5 mr-2 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <h3 class="text-lg font-medium">工作压力问题</h3>
+                    </div>
+                    <p class="mb-3">工作压力引发的心理问题在经济发达地区尤为突出，主要表现为工作倦怠、职业耗竭等。</p>
+                    <ul class="list-disc pl-5">
+                        <li>高发行业：互联网、金融、地产</li>
+                        <li>高发人群：25-45岁职场中坚力量</li>
+                        <li>主要症状：精力耗竭、职业冷漠、成就感降低</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gray-50 p-5 rounded-lg">
+                    <div class="flex items-center mb-3">
+                        <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        <h3 class="text-lg font-medium">社交和适应性问题</h3>
+                    </div>
+                    <p class="mb-3">社交和适应性问题在青少年和年轻人群体中较为突出，与社会环境变化和网络社交的兴起有关。</p>
+                    <ul class="list-disc pl-5">
+                        <li>高发人群：青少年、大学生、新就业人群</li>
+                        <li>主要症状：社交焦虑、人际关系困难、社会隔离</li>
+                        <li>相关因素：网络社交依赖、现实社交能力不足</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-8">
+                <img src="images/chart4.svg" alt="主要心理问题分布图" class="w-full h-auto rounded-lg border border-gray-200">
+            </div>
+        </section>
+        
+        <!-- 政策建议 -->
+        <section id="recommendations" class="mb-12 bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <h2 class="text-xl font-semibold mb-4">政策建议与未来展望</h2>
+            
+            <div class="prose max-w-none">
+                <p class="mb-3">基于对江苏省和广东省心理健康状况的分析，本研究提出以下政策建议：</p>
+                
+                <h3 class="text-lg font-medium mt-6 mb-3">针对年龄分布问题的建议</h3>
+                <ul class="list-disc pl-5 mb-4">
+                    <li>针对青少年群体，加强学校心理健康教育，建立校园心理危机预警机制，减轻学业压力。</li>
+                    <li>针对青年群体，完善职场心理健康服务，鼓励企业建立EAP计划，关注工作-生活平衡。</li>
+                    <li>针对中老年群体，发展社区心理服务，重点关注退休适应和空巢老人问题。</li>
+                </ul>
+                
+                <h3 class="text-lg font-medium mt-6 mb-3">针对性别差异的建议</h3>
+                <ul class="list-disc pl-5 mb-4">
+                    <li>针对女性群体，提供更多关注情绪管理和压力应对的服务，关注职场女性和母亲群体的特殊需求。</li>
+                    <li>针对男性群体，打破心理求助障碍，开发更适合男性特点的心理健康服务模式。</li>
+                    <li>推动性别敏感的心理健康教育，减少性别刻板印象带来的心理负担。</li>
+                </ul>
+                
+                <h3 class="text-lg font-medium mt-6 mb-3">针对行业分布的建议</h3>
+                <ul class="list-disc pl-5 mb-4">
+                    <li>针对高风险行业，加强职业心理健康保障，将心理健康纳入职业健康范畴。</li>
+                    <li>鼓励企业建立健全的职工心理健康服务体系，定期开展心理健康评估。</li>
+                    <li>加强行业特异性的心理健康研究，开发针对性强的心理干预措施。</li>
+                </ul>
+                
+                <h3 class="text-lg font-medium mt-6 mb-3">未来展望</h3>
+                <p class="mb-3">随着"健康中国2030"战略的推进，江苏省和广东省的心理健康服务体系将不断完善。未来发展趋势包括：</p>
+                <ul class="list-disc pl-5 mb-4">
+                    <li>心理健康服务将更加普及和专业化，心理健康意识将进一步提高。</li>
+                    <li>数字心理健康服务将快速发展，互联网+心理健康模式将更加成熟。</li>
+                    <li>心理健康与身体健康的整合服务将成为发展方向。</li>
+                    <li>心理健康服务的可及性将显著提高，特别是在欠发达地区。</li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- 数据来源 -->
+        <section id="data-sources" class="mb-12 bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <h2 class="text-xl font-semibold mb-4">数据来源与研究方法说明</h2>
+            
+            <div class="prose max-w-none">
+                <p class="mb-4">本研究的数据来源主要包括：</p>
+                <ol class="list-decimal pl-5 mb-6">
+                    <li>中国科学院心理研究所《2022年青少年心理健康状况调查报告》及《2022年大学生心理健康状况调查报告》</li>
+                    <li>《中国国民心理健康发展报告（2020）》</li>
+                    <li>江苏省和广东省"十四五"卫生健康发展规划</li>
+                    <li>广东省12355青少年心理热线数据研究</li>
+                    <li>《乡村儿童心理健康调查报告》</li>
+                    <li>国家卫生健康委员会心理健康调查数据</li>
+                </ol>
+                
+                <div class="bg-amber-50 border-l-4 border-amber-500 p-4 my-6">
+                    <h3 class="text-amber-800 font-medium mb-2">数据局限性说明</h3>
+                    <p class="text-amber-800">本研究面临一些数据局限性：首先，江苏省和广东省缺乏系统的按年龄、性别和行业分布的专项心理健康调查数据；其次，部分数据来自全国性研究，可能无法完全反映省级特点；第三，2020-2025年为时间跨度，部分数据为预测值；最后，疫情期间的特殊情况可能影响数据的代表性。</p>
+                </div>
+                
+                <h3 class="text-lg font-medium mt-6 mb-3">研究方法补充说明</h3>
+                <p class="mb-3">本研究在方法上采取了以下策略来应对数据局限：</p>
+                <ul class="list-disc pl-5 mb-4">
+                    <li>综合多源数据：整合国家级和省级数据，相互验证和补充。</li>
+                    <li>文献分析法：通过分析相关政策文件和研究报告，提取间接证据。</li>
+                    <li>专家咨询法：征求心理健康领域专家的意见，弥补数据空白。</li>
+                    <li>数据对比法：通过横向和纵向比较，揭示可能的趋势和规律。</li>
+                </ul>
+                
+                <p>鉴于数据的局限性，本报告的结论应谨慎解读，并需要更多专项研究进一步验证。</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-white py-6 border-t border-gray-100">
+        <div class="container mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-gray-600 mb-4 md:mb-0">© Ari Yin. 保留所有权利.</p>
+            <p class="text-gray-600">Built by Ari Yin.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="data.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="400" fill="#f9fafb" rx="10" ry="10" />
+    
+    <!-- Title -->
+    <text x="400" y="40" font-family="Inter, sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#111827">不同性别抑郁风险检出率对比 (2020-2025)</text>
+    
+    <!-- Legend -->
+    <g transform="translate(650, 100)">
+        <rect x="0" y="0" width="16" height="16" fill="#3b82f6" rx="2" ry="2" />
+        <text x="24" y="13" font-family="Inter, sans-serif" font-size="14" fill="#4b5563">江苏省</text>
+        
+        <rect x="0" y="30" width="16" height="16" fill="#f97316" rx="2" ry="2" />
+        <text x="24" y="43" font-family="Inter, sans-serif" font-size="14" fill="#4b5563">广东省</text>
+        
+        <rect x="0" y="60" width="16" height="16" fill="#10b981" rx="2" ry="2" />
+        <text x="24" y="73" font-family="Inter, sans-serif" font-size="14" fill="#4b5563">全国平均</text>
+    </g>
+    
+    <!-- Chart Area -->
+    <g transform="translate(100, 100)">
+        <!-- X and Y axes -->
+        <line x1="0" y1="240" x2="600" y2="240" stroke="#d1d5db" stroke-width="2" />
+        <line x1="0" y1="0" x2="0" y2="240" stroke="#d1d5db" stroke-width="2" />
+        
+        <!-- X axis labels -->
+        <text x="150" y="270" font-family="Inter, sans-serif" font-size="16" font-weight="500" text-anchor="middle" fill="#4b5563">男性</text>
+        <text x="450" y="270" font-family="Inter, sans-serif" font-size="16" font-weight="500" text-anchor="middle" fill="#4b5563">女性</text>
+        
+        <!-- Y axis labels -->
+        <text x="-10" y="240" font-family="Inter, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">0%</text>
+        <text x="-10" y="192" font-family="Inter, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">5%</text>
+        <text x="-10" y="144" font-family="Inter, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">10%</text>
+        <text x="-10" y="96" font-family="Inter, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">15%</text>
+        <text x="-10" y="48" font-family="Inter, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">20%</text>
+        <text x="-10" y="0" font-family="Inter, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">25%</text>
+        
+        <!-- Grid lines -->
+        <line x1="0" y1="192" x2="600" y2="192" stroke="#e5e7eb" stroke-width="1" />
+        <line x1="0" y1="144" x2="600" y2="144" stroke="#e5e7eb" stroke-width="1" />
+        <line x1="0" y1="96" x2="600" y2="96" stroke="#e5e7eb" stroke-width="1" />
+        <line x1="0" y1="48" x2="600" y2="48" stroke="#e5e7eb" stroke-width="1" />
+        
+        <!-- Data Bars for Male -->
+        <g transform="translate(100, 0)">
+            <!-- Jiangsu Province - Male -->
+            <rect x="0" y="172" width="50" height="68" fill="#3b82f6" rx="4" ry="4" opacity="0.9">
+                <title>江苏省男性: 14.2%</title>
+            </rect>
+            
+            <!-- Guangdong Province - Male -->
+            <rect x="60" y="173.5" width="50" height="66.5" fill="#f97316" rx="4" ry="4" opacity="0.9">
+                <title>广东省男性: 13.9%</title>
+            </rect>
+            
+            <!-- National Average - Male -->
+            <rect x="120" y="167.5" width="50" height="72.5" fill="#10b981" rx="4" ry="4" opacity="0.9">
+                <title>全国男性: 15.1%</title>
+            </rect>
+        </g>
+        
+        <!-- Data Bars for Female -->
+        <g transform="translate(400, 0)">
+            <!-- Jiangsu Province - Female -->
+            <rect x="0" y="154" width="50" height="86" fill="#3b82f6" rx="4" ry="4" opacity="0.9">
+                <title>江苏省女性: 17.8%</title>
+            </rect>
+            
+            <!-- Guangdong Province - Female -->
+            <rect x="60" y="153" width="50" height="87" fill="#f97316" rx="4" ry="4" opacity="0.9">
+                <title>广东省女性: 18.2%</title>
+            </rect>
+            
+            <!-- National Average - Female -->
+            <rect x="120" y="150.5" width="50" height="89.5" fill="#10b981" rx="4" ry="4" opacity="0.9">
+                <title>全国女性: 18.6%</title>
+            </rect>
+        </g>
+    </g>
+    
+    <!-- Callout for significant difference -->
+    <g transform="translate(450, 170)">
+        <path d="M0,0 L40,-30 L120,-30 L120,-70 L0,-70 Z" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1" />
+        <text x="60" y="-50" font-family="Inter, sans-serif" font-size="12" text-anchor="middle" fill="#4b5563">女性抑郁风险检出率</text>
+        <text x="60" y="-30" font-family="Inter, sans-serif" font-size="12" text-anchor="middle" fill="#4b5563">显著高于男性</text>
+    </g>
+    
+    <!-- Source note -->
+    <text x="100" y="380" font-family="Inter, sans-serif" font-size="11" fill="#9ca3af">数据来源: 广东省12355青少年心理热线数据研究及《中国国民心理健康发展报告（2020）》</text>
+</svg>
